@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.text{
+    text-align: center;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    font-size: 65px;
+    color: rgb(134, 61, 202);
+    padding-top: 3%;
+    
+}
+.container{
+    background-color: bisque;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
+.center{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+.abertura{
+    top: 42%;
+    width: 430px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(255, 161, 192);
+    border: 4px solid rgb(134, 61, 202);
+    z-index: 3;
+}
+.main-body{
+    top: 65%;
+    width: 430px;
+    height: 300px;
+    border-radius: 0% 0% 50% 50%;  
+    background-color: rgb(255, 182, 206);
+    border: 4px solid rgb(134, 61, 202);  
+    z-index: 2;
+    clip: initial;
+}
+.pezin{
+    top: 85%;
+    width: 400px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(255, 182, 206);
+    border: 4px solid rgb(134, 61, 202);
+}
+.cha-baixo{
+    top: 42.7%;
+    width: 415px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: rgb(26, 14, 3);
+    z-index: 4;
+    clip: rect(57px, 500px, 110px, 0px);
+}
+.cha-cima{
+    top: 43%;
+    width: 423px;
+    height: 68px;
+    border-radius: 50%;
+    background-color: rgb(26, 14, 3);
+    z-index: 3;
+    clip: rect(0px, 500px, 50px, 0px);
+}
+.ice{
+    top: 33.5%;
+    left: 53%;
+    width: 90px;
+    height: 90px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 20%;
+    z-index: 3;
+    transform: rotate(26deg);
+}
+.little-ice{
+    top: 37%;
+    left: 48%;
+    width: 70px;
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 20%;
+    z-index:3;
+    transform: rotate(70deg);
+}
+.alca-dentro{
+    top: 57.8%;
+    left: 65.5%;
+    background-color: bisque;
+    border: 4px solid rgb(134, 61, 202);
+    width: 145px;
+    height: 130px;
+    border-radius: 50%;
+}
+.alca-fora{
+    top: 58%;
+    left: 67.5%;
+    background-color: rgb(255, 182, 206);
+    border: 4px solid rgb(134, 61, 202);
+    width: 170px;
+    height: 190px;
+    border-radius: 50%;
+}
+
+.Reye{
+    top: 60%;
+    left: 42%;
+    background-color: black;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    z-index: 7;
+}
+.Leye{
+    top: 60%;
+    left: 58%;
+    background-color: black;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    z-index: 7;
+}
+.Reye-ball{
+    top: 59%;
+    left: 41.1%;
+    background-color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    z-index: 7;
+}
+.Leye-ball{
+    top: 59%;
+    left: 57.1%;
+    background-color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    z-index: 7;
+}
+
+.mouth{
+    top: 64%;
+    left: 50%;
+    width: 27px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: brown;
+    z-index: 6;
+}
+
+.Rblush{
+    top: 63%;
+    left: 59.5%;
+    width: 45px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgba(223, 0, 186, 0.329);
+    z-index: 6;
+}
+.Lblush{
+    top: 63%;
+    left: 40.5%;
+    width: 45px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgba(223, 0, 186, 0.329);
+    z-index: 6;
+}
